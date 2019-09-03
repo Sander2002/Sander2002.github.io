@@ -1,0 +1,28 @@
+body{
+    background-color: #eeeeee;
+    font-family: 'Arial';
+}
+th, td{
+    border: 1px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+}
+.menu{
+    background-color: darkgrey;
+    padding: 10px;
+    border-radius: 8px;
+}
+nav a{
+    text-decoration: none;
+    color: #444444;
+    padding-right: 60px;
+}
+nav a:hover{
+    color: black;
+}
+.kenmerk{
+    width: 80px;
+    float: left;
+    margin-top: -10px;
+}
