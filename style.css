@@ -1,6 +1,18 @@
 body{
-    background-color: #eeeeee;
-    font-family: 'Arial';
+    background-color: white;
+    color: #2A3132;
+    font-family: Arial;
+    margin-top: 60px;
+}
+h1{
+    margin-left: 40%;
+}
+h3{
+    padding-left: 10px;
+    margin-bottom: -5px;
+}
+table{
+    margin-left: 3%;
 }
 th, td{
     border: 1px solid black;
@@ -8,21 +20,61 @@ th, td{
     padding-right: 10px;
     text-align: left;
 }
-.menu{
-    background-color: darkgrey;
-    padding: 10px;
-    border-radius: 8px;
+th{
+    background-color: #666666;
 }
-nav a{
+td:hover{
+    background-color: #c7c6c6;
+}
+.navbar {
+    overflow: hidden;
+    background-color: #336B87;
+    position: fixed;
+    top: 0;
+    width: 110%;
+    margin-left: -10px;
+    margin-top: -2px;
+
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-    color: #444444;
-    padding-right: 60px;
+    font-size: 17px;
 }
-nav a:hover{
-    color: black;
+.navbar a:hover{
+    background-color: #90AFC5;
+    color: #2A3132;
 }
 .kenmerk{
-    width: 80px;
-    float: left;
-    margin-top: -10px;
+    width: 200px;
+    padding: 5px;
+}
+.sites{
+    background-color: white;
+    width: 330px;
+    float: right;
+    margin-top: 80px;
+    padding-left: 20px;
+    margin-left: -20px;
+    margin-right: 20px;
+}
+.flex{
+    display: flex;
+    width: 65%;
+    /* margin: 0 auto; */
+    /* background-color: red; */
+    margin-left: 200px;
+}
+img{
+    height: 130px;
+}
+.text{
+    width: 300px;
+    margin-right: 20px;
+    padding: 10px;
+    /* background-color: green; */
 }
