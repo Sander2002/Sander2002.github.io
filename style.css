@@ -8,7 +8,7 @@ h1{
     text-align: center;
 }
 h3{
-    padding-left: 10px;
+    /* padding-left: 10px; */
     margin-bottom: -5px;
 }
 table{
@@ -68,7 +68,7 @@ img{
     height: 130px;
 }
 .text{
-    width: 300px;
+    width: 60%;
     margin: -10px 10px 0px 10px;
 }
 .voldoende{
